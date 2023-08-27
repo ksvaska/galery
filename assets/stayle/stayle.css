@@ -54,7 +54,7 @@
     justify-content: space-around;
     height: 100px;
 }
-.adress{
+.address{
     display: flex;
     flex-direction: column;
     align-items: center;
