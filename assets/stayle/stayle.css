@@ -1,0 +1,90 @@
+@font-face {
+    font-family:'impact2' ; 
+    src: url(assets/stayle/impact2.woff2);
+}
+.header{
+    display: flex;
+    background-color: rgb(183, 230, 122);
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    flex-grow: 2;
+}
+  
+.h1{
+    padding: 30px;
+    margin: 10px;
+    font-family: 'impact2', 'Arial','sans-serif';
+    color: rgb(37, 5, 64);
+    font-size: 30px;
+}
+.h2{ 
+    padding: 30px;
+    margin: 10px;
+    font-family: 'impact2', 'Arial','sans-serif';
+    color: rgb(37, 5, 64);
+    font-size: 30px;
+}
+.menu1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(18, 20, 20);
+}
+.img{
+    width: 300px;
+    padding: 20px; 
+}
+
+.svg{
+    width: 100px;
+}
+.footer{
+    background-color: rgb(37, 144, 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainmenu{
+    text-decoration: none;   
+    margin: 10px;
+    padding: 30px;
+    font-family: 'impact2', 'Arial','sans-serif';
+    color: rgb(37, 5, 64);
+}
+.mainmenu:hover{
+    color: darkolivegreen;
+}
+.li{
+    list-style-type: none;
+    border: 2px solid green;
+    padding:10px ;
+    margin: 10px;
+    background-color: rgb(37, 144, 216);
+}
+.img:hover{
+    transform: scale(1.2);
+}
+.adress1:hover{
+    color: darkslategray;
+}
+.adress1{
+    font-family: 'impact2', 'Arial','sans-serif';
+    text-decoration: none; 
+    color:rgb(2, 21, 9);
+}
